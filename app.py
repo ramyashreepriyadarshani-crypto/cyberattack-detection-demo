@@ -19,7 +19,7 @@ st.write(
 # Load project files
 try:
     model = joblib.load("cyberattack_rf_no_ip.pkl")
-    data = pd.read_csv("cyberattack_test_data(1).csv")
+    data = pd.read_csv("cyberattack_test_data (1).csv")
     importance = pd.read_csv("feature_importance.csv")
     comparison = pd.read_csv("model_comparison.csv")
 
